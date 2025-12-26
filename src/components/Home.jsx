@@ -1,5 +1,5 @@
 import React from "react";
-import myImg from "../assets/bipul.png";
+import myImg from "../public/bipul.png";
 import { Typewriter } from "react-simple-typewriter";
 import { Element } from "react-scroll";
 
