@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Link ,Element} from 'react-scroll';
 import { MdOutlineMenu } from "react-icons/md";
 import { RxCross2 } from "react-icons/rx";
+import myImg from "../public/b.jpg";
 
 function Header() {
 
@@ -12,7 +13,7 @@ function Header() {
         <>
         <div className="bg-[#293241] sticky top-0 z-50 flex justify-between items-center h-15">
        <div className='ml-5 text-lg flex gap-2 w-2/5'>
-       <div className='sm:size-13 size-12 rounded-full   bg-gray-50'><img  className="object-contain rounded-full " src="../src/public/b.jpg" alt="B" /></div>
+       <div className='sm:size-13 size-12 rounded-full   bg-gray-50'><img  className="object-contain rounded-full " src={myImg} alt="B" /></div>
        <div>
         <h1>Bipul </h1>
        <h3 className='text-sm'>Web Developer</h3>
